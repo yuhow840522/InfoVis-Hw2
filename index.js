@@ -153,7 +153,7 @@ function calculateDraw(){
       .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
       .attr("transform", "translate("+ (padding/6) +","+(h/2)+")rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
       .attr({'font-size': '100x','font-family' : 'Microsoft JhengHei'})
-      .text("人數變化");
+      .text("新生人數變化");
 
       svg.append("text")
       .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
